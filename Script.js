@@ -10,6 +10,3 @@ function updateCurrentTime() {
   currentUTCTime.textContent = `${Date.now()} ms`;
 }
 
-updateCurrentTime();
-
-setInterval(updateCurrentTime, 100);
